@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stampLayout"
+    android:background="#00ff0000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/base"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#00ff0000"/>
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_below="@+id/base"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="#00ff0000"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_below="@+id/topText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="#00ff0000"/>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/panel1"
+        android:layout_below="@+id/content"
+        >
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/panel2"
+        android:layout_below="@+id/panel1"
+        >
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/panel3"
+        android:layout_below="@+id/panel2"
+        >
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+        <ImageView style="@style/StampPanel"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/buttonLayout1"
+        android:layout_below="@id/content"
+        >
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage01"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage02"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage03"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage04"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage05"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/buttonLayout2"
+        android:layout_below="@+id/buttonLayout1"
+        >
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage06"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage07"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage08"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage09"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage10"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/buttonLayout3"
+        android:layout_below="@+id/buttonLayout2"
+        >
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage11"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage12"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage13"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage14"
+            />
+        <ImageView
+            style="@style/Stamp"
+            android:id="@+id/buttonimage15"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/base"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#00ff0000"/>
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_below="@id/base"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="☆참 잘했어요☆"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:textColor="@color/mainColor"
+        android:background="#00ff0000"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_below="@id/topText"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="칭찬할 일이 있으면 스티커를 붙여주세요!\n잘못 눌렀을 경우 다시 한번 누르면 수정이 됩니다.\n칭찬은 고래도 춤추게 합니다. 룰루~"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:background="#00ff0000"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/buttonLayout1"
+        android:layout_below="@id/content"
+        >
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button01"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button02"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button03"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button04"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button05"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/buttonLayout2"
+        android:layout_below="@id/buttonLayout1"
+        >
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button06"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button07"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button08"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button09"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button10"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/wrapButton"
+        android:id="@+id/buttonLayout3"
+        android:layout_below="@id/buttonLayout2"
+        >
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button11"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button12"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button13"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button14"
+            />
+        <Button
+            style="@style/BasicButton"
+            android:id="@+id/button15"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TextBoxLayout"
+        android:layout_below="@id/buttonLayout2"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:background="#00ff0000">
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
